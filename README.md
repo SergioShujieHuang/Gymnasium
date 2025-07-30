@@ -1,8 +1,8 @@
-# CartPole Reinforcement Learning
+# Project Report: DQN with Reward Shaping on CartPole-v1
 
 ## Overview
 
-This project implements reinforcement learning algorithms (Double DQN and A2C) for the `CartPole-v1` environment using Gymnasium and PyTorch. The goal is to train an agent to balance the pole and keep the cart near the center.
+I implement a reinforcement learning agent using Deep Q-Network to solve the CartPole-v1 environment from Gymnasium. The agent is trained with experience replay and target network mechanisms, and includes a custom shaped reward function to enhance learning efficiency.
 
 ## Environment Setup
 
